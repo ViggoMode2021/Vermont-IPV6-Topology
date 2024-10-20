@@ -177,11 +177,8 @@ $Generate_BTN.Add_Click({ Generate_IPV6_ULA_Addresses })
 
 Generate_IPV6_ULA_Addresses
 
-$Form.Controls.AddRange(@($Menu_Bar, $Description, $Title, $INT_Box, $INT_Box_2, $Address_1,
-$Address_2, $name, $Commands_BTN_1, $Commands_BTN_2, $Generate_BTN, $Body,
-$EliteShell_Logo, $The_Submit_Button, $The_Learn_More_Button, $Total_Number_Of_Answers_Label,
-$Total_Score_Label, $Scripts_Purchased_Label, $Total_Unique_Problems_Label, $Score_Box,
-$Completed_In, $Correct_Incorrect, $Score_File_Information))
+$Form.Controls.AddRange(@($Description, $Title, $INT_Box, $INT_Box_2, $Address_1,
+$Address_2, $Commands_BTN_1, $Commands_BTN_2, $Generate_BTN))
 
 $Form.AutoScale = $true
 $Form.AutoScaleMode = "Font"
